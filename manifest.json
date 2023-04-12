@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Death_Aruban"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Template Animation",
+		"description": "",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "f9a28ff0-0edb-48ca-b66c-c6b49e329afc",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "ad4147ce-9ef2-4787-ba9c-9f0fb302addc",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

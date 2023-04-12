@@ -1,0 +1,14 @@
+{
+  "namespace": "animation_title",
+
+  "anim_title": {"anim_type": "uv","easing": "linear","from": "$uv_frame","to": "$uv_frame","duration": 0.2 },
+
+	"title1@animation_title.anim_title": { "$uv_frame": [ 0, 0 ], "next": "@animation_title.title2" },
+	"title2@animation_title.anim_title": { "$uv_frame": [ 0, 331], "next": "@animation_title.title3" },
+	"title3@animation_title.anim_title": { "$uv_frame": [ 0, 662], "next": "@animation_title.title4" },
+	"title4@animation_title.anim_title": { "$uv_frame": [ 0, 993], "next": "@animation_title.title5" },
+	"title5@animation_title.anim_title": { "$uv_frame": [ 0, 1324 ], "next": "@animation_title.title6" },
+  "title6@animation_title.anim_title": { "$uv_frame": [ 0, 993], "next": "@animation_title.title7" },
+  "title7@animation_title.anim_title": { "$uv_frame": [ 0, 662], "next": "@animation_title.title8" },
+  "title8@animation_title.anim_title": { "$uv_frame": [ 0, 331], "next": "@animation_title.title1" }
+}
